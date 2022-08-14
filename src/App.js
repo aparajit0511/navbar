@@ -1,10 +1,12 @@
 import "./App.css";
 import Navbar from "./Navbar";
+import TicTacToe from "./TicTacToe";
 
 function App() {
   return (
     <div className="App">
-      <Navbar />
+      {/* <Navbar /> */}
+      <TicTacToe />
     </div>
   );
 }
